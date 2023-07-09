@@ -1,0 +1,28 @@
+.main_div{
+    background-image: url(https://i.postimg.cc/5NxV1zLq/1.jpg);
+    background-size: 86rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body{
+    height: 100vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 11.1rem 0;
+    transition: 1s ease-in-out;
+}
+#btn:hover{
+    transform: scale(1.1);
+}
+#money:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:993px){
+    .main_div {
+        background-image: none;
+        background-color: #93c5fd;
+    }
+}
